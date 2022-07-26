@@ -125,8 +125,61 @@ h2 {
   right: -50px;
   top: 35%;
   border: 1px solid #ffffff;
-  padding: 12px 0 8px 15px;
+  padding: 10px 10px 5px 12px;
   border-radius: 100%;
   background-color: #4b4bf0;
-  width: 40px;
 }
+
+/********************** Blog Section *********************/
+
+.blog-heading {
+  background-color: #f1f1f1;
+  padding: 30px 60px 0 60px;
+}
+
+.blog-cards {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 30px 60px 60px 60px;
+  justify-content: space-between;
+}
+
+.blog-card {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 287px;
+  border-radius: 50px 10px 10px 20px;
+}
+
+.blog-content {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 40px;
+  position: relative;
+}
+
+img[alt="first"] {
+  position: absolute;
+  top: 1480px;
+  left: 345px;
+}
+
+img[alt="second"] {
+  position: absolute;
+  top: 1480px;
+  right: 265px;
+}
+
+.blog-author-1 {
+  position: absolute;
+  top: 1490px;
+  left: 410px;
+}
+
+.blog-author-2 {
+  position: absolute;
+  top: 1490px;
+  right: 130px;
+}
+
+/********************** FAQ Section *********************/
