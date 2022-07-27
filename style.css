@@ -193,3 +193,84 @@ img[alt="second"] {
 }
 
 /********************** FAQ Section *********************/
+
+.faq-section {
+  padding: 0 0 0 60px;
+  display: flex;
+  align-items: center;
+  background-color: #dfdddd;
+  height: 324px;
+}
+
+.faq-content {
+  flex-grow: 1;
+}
+
+h4 {
+  width: 70%;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+h2 {
+  line-height: 45px;
+  margin: 20px 0;
+}
+
+.faq-content > button {
+  color: #ffffff;
+  background-color: #4b4bf0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.faq-image{
+  align-self: flex-start;
+}
+
+
+/********************** Download Section *********************/
+
+.download-section {
+  padding: 120px 60px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-email {
+  width: 540px;
+  background-color: #dfdddd;
+  border-radius: 40px;
+}
+
+form {
+  display: flex;
+}
+
+form > input {
+  background-color: #dfdddd;
+  background-color: #dfdddd;
+  border: none;
+  flex-grow: 1;
+  padding: 15px 25px;
+  border-radius: 40px;
+}
+
+form > input::placeholder{
+  color: #1f1f1f;
+  font-size: 14px;
+}
+
+form > button {
+  border-radius: 40px;
+  border: none;
+  background-color: #4b4bf0;
+  padding: 15px 35px;
+  color: #ffffff;
+}
+
+/********************** Footer Section *********************/
+
