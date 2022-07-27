@@ -135,6 +135,16 @@ h2 {
 .blog-heading {
   background-color: #f1f1f1;
   padding: 30px 60px 0 60px;
+  position: relative;
+}
+
+.blog-heading::after{
+  content: 'See All Article';
+  position: absolute;
+  color: #4b4bf0;
+  font-weight: 700;
+  right: 60px;
+  bottom: 10px;
 }
 
 .blog-cards {
