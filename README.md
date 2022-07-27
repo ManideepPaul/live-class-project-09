@@ -4,8 +4,9 @@
 
 
 Learned about `grid` and used it in `hero-section`.
+Learned more about `::before` and `::after` pseudo selector. Used it in `footer-section` to draw lines between links.
 
-- It took me around **4 hour** to complete the project.
+- It took me around **6 hour** to complete the project.
 
 <br>
 
