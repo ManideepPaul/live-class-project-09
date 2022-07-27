@@ -8,9 +8,6 @@
   padding: 0;
 }
 
-body {
-}
-
 /********************** Header Section *********************/
 
 header {
@@ -134,7 +131,7 @@ h2 {
 
 .blog-heading {
   background-color: #f1f1f1;
-  padding: 30px 60px 0 60px;
+  padding: 60px 60px 0 60px;
   position: relative;
 }
 
@@ -212,7 +209,7 @@ h4 {
   font-size: 14px;
 }
 
-h2 {
+.faq-section h2 {
   line-height: 45px;
   margin: 20px 0;
 }
@@ -238,6 +235,10 @@ h2 {
   background-color: #f1f1f1;
   display: flex;
   justify-content: space-between;
+}
+
+.download-content  span {
+  font-weight: 400;
 }
 
 .download-email {
@@ -274,3 +275,85 @@ form > button {
 
 /********************** Footer Section *********************/
 
+.footer-section {
+  padding: 100px 60px;
+  background-color: #4b4bf0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+li {
+  margin-top: 20px;
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 35px;
+}
+
+.list > li:nth-child(3) {
+  position: relative;
+}
+
+.list > li:nth-child(4) {
+  position: relative;
+}
+
+.list > li:nth-child(3)::after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 5px;
+  left: 50px;
+}
+
+.list > li:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 5px;
+  right: 50px;
+}
+
+.list > li:nth-child(4)::after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 5px;
+  left: 60px;
+}
+
+.footer-logos {
+  margin-left: 21px;
+  margin-bottom: 10px;
+}
+
+.logos-list > li:nth-child(2) {
+  position: relative;
+}
+
+.logos-list > li:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 5px;
+  left: 90px;
+}
+
+.logos-list > li:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 5px;
+  right: 90px;
+}
